@@ -6,6 +6,7 @@
  * Time: 12:44
  */
 
+<<<<<<< HEAD
 /**
  * Class db
  */
@@ -59,3 +60,10 @@ else
     header("Location: index.php");
 }
 
+=======
+
+/*
+echo "<pre>";
+print_r($_POST);
+echo "</pre>";
+>>>>>>> 1cb8f3e48344862f10cc0e5bd31c0f7d0c74aa27
