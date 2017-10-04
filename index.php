@@ -57,42 +57,12 @@ switch($message)
         <div id="fullpage">
             <div id="home" class="section">
                 <div class="logo">
-                    <img src="http://via.placeholder.com/600x400">
+                    <img src="img/logo_350x81.png">
                 </div>
                 <div id="quote">
                     <p>"Deze revolutionaire onderzetter zal de toekomst
                         van kroeggangers in duizendvoud verbeteren."
                     </p>
-                </div>
-            </div>
-            <div id="about-us" class="section">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-6">
-                            <img id="about-us-img" src="http://via.placeholder.com/400x600">
-                        </div>
-                        <div class="col-6">
-                            <div id="about-us-text">
-                                <h2>Over ons</h2>
-                                <p>
-                                    Wij zijn een <b style="color: blue;">Jansenio</b>, <b style="color: greenyellow;">Irene</b>, <b style="color: lightblue;">Lotte</b> en <b style="color: orange;">Rick</b>. Wij studeren aan de Hogeschool Rotterdam op de opleiding <b>Creative & Interactive Media & Game Technologiess</b>.
-                                    Hier hebben wij de opdracht gekregen om een <b>smart-opject</b> te maken.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div id="info" class="section">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-5">
-                        </div>
-                        <div class="col-2">
-                        </div>
-                        <div class="col-5">
-                        </div>
-                    </div>
                 </div>
             </div>
             <div id="concept" class="section">
@@ -121,6 +91,85 @@ switch($message)
                         </div>
                         <div class="col-6">
                             <img id="concept-img" src="http://via.placeholder.com/400x600">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="info" class="section">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-6">
+                            <div id="info-text" class="float-right">
+                                <h2>Idee SMART-viltje</h2>
+                                <p> We hebben het idee van het SMART-viltje verzonnen door middel van een brainstorm.
+                                    Deze brainstorm leidde tot verschillende ideeën. Naast de brainstorm hebben we
+                                    nagedacht over eventuele problemen in de kroeg. Dit heeft geleidt naar een concept
+                                    van het SMART-viltje. We hebben hierna interviews gedaan in de kroeg om te kijken
+                                    of dit concept ook echt in de werkelijkheid past. Aan de hand van deze interviewen
+                                    hebben we het concept aangepast tot het SMART-viltje dat we nu hebben. Het doel van
+                                    het SMART-viltje is dat barmannen/barvrouwen sneller overzicht krijgen tijdens een
+                                    drukke avond in de kroeg.
+                                </p>
+
+                                <h2>Gebruikte onderdelen</h2>
+                                <ul>
+                                    <li>Arduino</li>
+                                    <li>USB kabel</li>
+                                    <li>Breadboard</li>
+                                    <li>Jumper cables</li>
+                                    <li>NeoPixel ring</li>
+                                    <li>Druksensor</li>
+
+                                    <li>Aluminium folie</li>
+                                    <li>Ringetjes x3</li>
+                                    <li>Tape</li>
+                                    <li>Hout</li>
+                                    <li>Acryl</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div id="info-werking">
+                                <h2>Werking van product</h2>
+                                <p>
+                                    <b>Glas is vol</b>
+                                    Wanneer het glas vol is, kleurt de Neopixel in verschillende kleuren. De druk is dan …. De barman/ barvrouw weet dat de klant van drinken voorzien is.
+
+                                    <b>Glas is leeg</b>
+                                    De Neopixel wordt paars als het glas leeg is. De druk is dan ….. . Het wordt dan duidelijk voor de barman/ barvrouw dat het glas leeg is. De barman/ barvrouw kan nu dus actie ondernemen en naar de klant toe gaan.
+
+                                    <b>Onderzetter is leeg</b>
+                                    Als de onderzetter leeg is, wordt hij blauw. Het glas staat niet op de onderzetter. De druk is dan onder …. .
+
+                                    <b>Drankje blijft te lang staan</b>
+                                    Wanneer het drankje te lang blijft staan, kleurt de Neopixel rood. Dit gebeurt als het drankje langer dan 30 minuten op het SMART-viltje staat. Het drankje is lauw en waarschijnlijk vergeten. De barman/ barvrouw herkent de paarse kleur en haalt het drankje weg.
+
+                                </p>
+                                <div id="info-img">
+                                    <img src="img/IMG_0419.JPG"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="about-us" class="section">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-6">
+                            <img id="about-us-img" src="img/About_us.jpg">
+                        </div>
+                        <div class="col-6">
+                            <div id="about-us-text">
+                                <h2>Over ons</h2>
+                                <p>
+                                    Wij zijn een <b style="color: blue;">Jansenio</b>, <b style="color: lightblue;"> Lotte</b>, <b style="color: rgb(255, 48, 79);"> Irene</b> en <b style="color: orange;"> Rick</b>.
+                                    Wij zijn eerstejaars studenten aan de opleiding <b>Creative & Interactive Media & Game Technologiess</b> aan de Hogeschool Rotterdam.
+                                    Hier hebben wij de opdracht gekregen om een <b>smart-opject</b> te maken. Deze opdracht valt onder het vak CLE. Het doel van deze opdracht is om de theorie van de vakken in praktijk te brengen.
+                                    Deze vakken zijn bijvoorbeeld ontwerpen en programmeren.
+
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
