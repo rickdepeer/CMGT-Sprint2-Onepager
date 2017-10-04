@@ -75,7 +75,7 @@ switch($message)
                             <div id="about-us-text">
                                 <h2>Over ons</h2>
                                 <p>
-                                    Wij zijn een <b style="color: blue;">Jansenio</b>, <b style="color: greenyellow;">Irene</b>, <b style="color: lightblue;">Lotte</b> en <b style="color: orange;">Rick</b>. Wij studeren aan de Hogeschool Rotterdam op de opleiding <b>Creative & Interactive Media & Game Technologiess</b>.
+                                    Wij zijn <b style="color: blue;">Jansenio</b>, <b style="color: greenyellow;">Irene</b>, <b style="color: lightblue;">Lotte</b> en <b style="color: orange;">Rick</b>. Wij studeren aan de Hogeschool Rotterdam op de opleiding <b>Creative & Interactive Media & Game Technologiess</b>.
                                     Hier hebben wij de opdracht gekregen om een <b>smart-opject</b> te maken.
                                 </p>
                             </div>

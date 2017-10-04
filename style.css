@@ -28,7 +28,7 @@
 
 #home
 {
-    background: url("img/achtergrond.png") no-repeat;
+    background: url("img/achtergrond1.png") no-repeat;
     background-size: 100%;
 }
 
@@ -75,6 +75,7 @@
     font-family: Century Gothic, sans-serif;
     font-size: 28px;
     text-align: center;
+    letter-spacing: 0.1em;
 }
 
 #info-img img
