@@ -33,23 +33,23 @@ switch($message)
     </head>
     <body>
         <div id="navbar">
-            <ul class="nav justify-content-end">
+            <ul id="menu" class="nav justify-content-end">
                 <li class="brand">
                     <img src="img/beeldmerk_smartviltje100x100.svg">
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link pulse active" href="#home"><i class="fa fa-home" aria-hidden="true"></i></a>
+                <li data-menuanchor="home" class="nav-item active">
+                    <a class="nav-link pulse" href="#home"><i class="fa fa-home" aria-hidden="true"></i></a>
                 </li>
-                <li class="nav-item">
+                <li data-menuanchor="concept" class="nav-item">
                     <a class="nav-link pulse" href="#concept">Concept</a>
                 </li>
-                <li class="nav-item">
+                <li data-menuanchor="info" class="nav-item">
                     <a class="nav-link pulse" href="#info">Infographic</a>
                 </li>
-                <li class="nav-item">
+                <li data-menuanchor="about-us" class="nav-item">
                     <a class="nav-link pulse" href="#about-us">Over ons</a>
                 </li>
-                <li class="nav-item">
+                <li data-menuanchor="contact" class="nav-item">
                     <a class="nav-link pulse" href="#contact">Contact</a>
                 </li >
             </ul>
@@ -78,8 +78,8 @@ switch($message)
                                     De klant kan met die informatie besluiten of hij/zij het biertje nog wilt opdrinken en/of een bartender kan vragen aan de klant of hij/zij een nieuwe biertje wilt hebben.
                                     Want je kan natuurlijk in alle gezelligheid met je vrienden vergeten dat je biertje er nog staat.
                                 </p>
+                                <h3>Scenario</h3>
                                 <p>
-                                    <h3>Scenario</h3>
                                     Een klant besteld een biertje en plaatst die op het smart viltje.
                                     Het smart viltje ziet dat het een volle glas is en begint een timer om te kijken hoelang die blijft staan.
                                     De LED ring geeft vrolijke kleuren van dat je biertje er staat.
@@ -90,7 +90,10 @@ switch($message)
                             </div>
                         </div>
                         <div class="col-6">
-                            <img id="concept-img" src="http://via.placeholder.com/400x600">
+                            <video id="concept-vid" width="600" controls>
+                                <source src="vid/IMG_0517_v2.mp4" type="video/mp4">
+                                Your browser does not support HTML5 video.
+                            </video>
                         </div>
                     </div>
                 </div>

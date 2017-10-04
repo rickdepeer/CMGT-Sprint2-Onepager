@@ -1,6 +1,10 @@
 $(document).ready(function()
 {
-    $('#fullpage').fullpage();
+    $('#fullpage').fullpage({
+        menu: "#menu",
+        ancor: ["home", "concept", "info", "about-us", "contact"]
+
+    });
 
     $(document.body).on("click", ".nav-link", function ()
     {
