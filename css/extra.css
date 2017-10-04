@@ -102,6 +102,7 @@ code {
 .nav-item a.nav-link.active {
   color: white;
   font-weight: 800;
-  border: solid #283593 1px; }
+  border: solid #283593 1px;
+  background-color: rgba(17, 0, 97, 0.64); }
 
 /*# sourceMappingURL=extra.css.map */

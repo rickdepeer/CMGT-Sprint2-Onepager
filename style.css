@@ -28,7 +28,7 @@
 
 #home
 {
-    background: url("img/achtergrond.png") no-repeat;
+    background: url("img/achtergrond1.png") no-repeat;
     background-size: 100%;
 }
 
@@ -75,13 +75,13 @@
     font-family: Century Gothic, sans-serif;
     font-size: 28px;
     text-align: center;
+    letter-spacing: 0.1em;
 }
 
 #info-img img
 {
     width: 300px;
-    margin-top: 200px;
-    transform: rotate(90deg);
+    /*transform: rotate(90deg);*/
 }
 #info-text
 {
@@ -175,6 +175,19 @@
     background-size: 100%;
 }
 
+
+#info-text
+{
+    max-width: 400px;
+    padding-top: 150px;
+    margin-right: 100px;
+}
+#info-werking
+{
+    max-width: 400px;
+    padding-top: 150px;
+    margin-left: 100px;
+}
 
 
 
